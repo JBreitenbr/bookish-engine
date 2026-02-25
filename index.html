@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Synchronicity</title> 
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <link rel="shortcut icon" href="Africa.ico">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">       
+       <a href="index.html" id="act" >Startseite</a>
+       <a href="australien.html">Perth</a>
+       <a href="indonesien.html">Jakarta</a>
+       <a href="kasachstan.html" >Almaty</a>
+       <a href="iran.html">Isfahan</a>
+       <a href="israel.html" >Haifa</a>
+       <a href="oesterreich.html">Graz</a>
+       <a href="germany.html">Köln</a>
+       <a href="england.html">Brighton</a>
+       <a href="spanien.html">Granada</a>
+       <a href="algerien.html">Algier</a>
+       <a href="mauretanien.html">Nouakchott</a>
+       <a href="burkina.html">Ouagadougou</a>
+       <a href="congo.html">Brazzaville</a>
+       <a href="brazil.html">Rio de Janeiro</a>
+       <a href="chile.html">Valparaíso</a>
+       <a href="salvador.html">San Salvador</a>
+       <a href="amerika.html">Santa Fe</a>   
+     </nav>   
+   </header>  
+   <main class="page">
+    <p class="desc">Das ist <em><span id="sync">World Synchronicity</span></em>, die
+      Fortsetzung von <a href="https://jbreitenbr.github.io/World-Mosaic/"><bold>World Mosaic</bold></a>.
+      Es werden 16 Städte vorgestellt mit diversen Zeitstempeln.
+      Dabei wird zwischen <i>lokalen</i> und <i>globalen</i> Zeiten unterschieden:
+      Letztere sind mit einem stilisierten Uhrsymbol <span class="time-label"></span> gekennzeichnet.<br>
+      Hier geschieht immer etwas an mehreren Orten <i>gleichzeitig</i>:</p>   
+    <p class="timestamp">
+    <div class="time-meta">
+           <span class="time-label">06:47</span> Perth, Jakarta, Isfahan, Haifa, Brazzaville, Valparaíso
+    </div>
+     <div class="time-meta">
+           <span class="time-label">09:23</span> Almaty, Graz, Algier, Rio de Janeiro, San Salvador
+    </div>
+    <div class="time-meta">
+           <span class="time-label">12:58</span> Isfahan, Graz, Brighton, Nouakchott, San Salvador, Santa Fe
+    </div>
+    <div class="time-meta">
+           <span class="time-label">15:36</span> Perth, Almaty, Brighton, Granada, Nouakchott, Santa Fe
+    </div>
+    <div class="time-meta">
+           <span class="time-label">19:52</span> Isfahan, Haifa, Brighton, Granada, Algier, Rio de Janeiro
+    </div>
+    <div class="time-meta">
+           <span class="time-label">23:11</span> Jakarta, Algier, Ouagadougou, Rio de Janeiro, Valparaíso
+    </div>
+   </p>    
+   <div id="tooltip"></div>
+   <svg id="worldmap" width="370" height="390">
+  </svg>
+  </main>
+  <script src="script.js"></script>
+  </body>
+</html>
