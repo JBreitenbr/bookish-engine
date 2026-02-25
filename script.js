@@ -17,13 +17,15 @@ let arr=
 {"id":7,"country":"England","city":"Brighton", "lon":-0.17,"lat":50.83,"population":290885,"tz":"Europe/London"},
 {"id":8,"country":"Spanien","city":"Granada","lon":-3.61,"lat":37.19,"population":234325,"tz":"Europe/Madrid"},
 {"id":9,"country":"Algerien","city":"Algier","lon":3.22,"lat":36.68,"population":2364230,"tz":"Africa/Algiers"},
-{"id":10,"country":"Mauretanien","city":"Nouakchott","lon":-15.98,"lat":18.09,"population":1612940,"tz":"Africa/Nouakchott"},
-{"id":11,"country":"Burkina Faso","city":"Ouagadougou","lon":-1.53,"lat":12.37,"population":3520820,"tz":"Africa/Ouagadougou"},
-{"id":12,"country":"Republik Kongo","city":"Brazzaville","lon":15.28,"lat":-4.27,"population":2813480,"tz":"Africa/Brazzaville"},
-{"id":13,"country":"Brasilien","city":"Rio de Janeiro","lon":-43.17,"lat":-22.91,"population":6775561,"tz":"America/Sao_Paulo"},
-{"id":14,"country":"Chile","city":"Valparaíso", "lon":-71.63,"lat":-33.03,"population":320816,"tz":"America/Santiago"},
-{"id":15,"country":"El Salvador","city":"San Salvador","lon":-89.20,"lat":13.72,"population":1132420,"tz":"America/El_Salvador"},
-{"id":16,"country":"USA","city":"Santa Fe","lon":-105.94,"lat":35.69,"population":91254,"tz":"America/Phoenix"}];
+{"id":10,"country":"Marokko","city":"Marrakesch","lon":-7.98,"lat":31.63,"population":1085000,"Africa/Casablanca"},
+{"id":11,"country":"Mauretanien","city":"Nouakchott","lon":-15.98,"lat":18.09,"population":1612940,"tz":"Africa/Nouakchott"},
+{"id":12,"country":"Burkina Faso","city":"Ouagadougou","lon":-1.53,"lat":12.37,"population":3520820,"tz":"Africa/Ouagadougou"},
+{"id":13,"country":"Republik Kongo","city":"Brazzaville","lon":15.28,"lat":-4.27,"population":2813480,"tz":"Africa/Brazzaville"},
+{"id":14,"country":"Brasilien","city":"Rio de Janeiro","lon":-43.17,"lat":-22.91,"population":6775561,"tz":"America/Sao_Paulo"},
+{"id":15,"country":"Chile","city":"Valparaíso", "lon":-71.63,"lat":-33.03,"population":320816,"tz":"America/Santiago"},
+{"id":16,"country":"Kolumbien","city":"Medellín","lon":-75.58,"lat":6.25,"population":2600000,"tz":"America/Bogota"},
+{"id":17,"country":"El Salvador","city":"San Salvador","lon":-89.20,"lat":13.72,"population":1132420,"tz":"America/El_Salvador"},
+{"id":18,"country":"USA","city":"Santa Fe","lon":-105.94,"lat":35.69,"population":91254,"tz":"America/Phoenix"}];
     const path = d3.geoPath().projection(projection);
 
     // Daten laden (TopoJSON -> GeoJSON)
