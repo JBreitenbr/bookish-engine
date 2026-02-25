@@ -17,7 +17,7 @@ let arr=
 {"id":7,"country":"England","city":"Brighton", "lon":-0.17,"lat":50.83,"population":290885,"tz":"Europe/London"},
 {"id":8,"country":"Spanien","city":"Granada","lon":-3.61,"lat":37.19,"population":234325,"tz":"Europe/Madrid"},
 {"id":9,"country":"Algerien","city":"Algier","lon":3.22,"lat":36.68,"population":2364230,"tz":"Africa/Algiers"},
-{"id":10,"country":"Marokko","city":"Marrakesch","lon":-7.98,"lat":31.63,"population":1085000,"Africa/Casablanca"},
+{"id":10,"country":"Marokko","city":"Marrakesch","lon":-7.98,"lat":31.63,"population":1085000,"tz":"Africa/Casablanca"},
 {"id":11,"country":"Mauretanien","city":"Nouakchott","lon":-15.98,"lat":18.09,"population":1612940,"tz":"Africa/Nouakchott"},
 {"id":12,"country":"Burkina Faso","city":"Ouagadougou","lon":-1.53,"lat":12.37,"population":3520820,"tz":"Africa/Ouagadougou"},
 {"id":13,"country":"Republik Kongo","city":"Brazzaville","lon":15.28,"lat":-4.27,"population":2813480,"tz":"Africa/Brazzaville"},
