@@ -164,7 +164,7 @@ nav a {
     font-size: 0.95rem;
    /* justify-content: space-evenly;*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
   }
   .page {
     padding: 1.7rem 1.3rem 2rem;
